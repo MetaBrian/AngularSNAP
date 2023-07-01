@@ -36,12 +36,13 @@
     font-family: 'Permanent Marker', cursive;
     border-style: outset;
     border-radius: 5vw;
+    font-size: medium;
 }
 
 .externalLinks:hover, .Links:hover{
     background-color: white;
     border-color: #8F00FF;
-    
+    font-size: larger;
 }
 
 .Links{
@@ -50,6 +51,7 @@
     font-family: 'Permanent Marker', cursive;
     border-style: outset;
     border-radius: 5vw;
+    font-size: medium;
 }
 
 #LogoText{
