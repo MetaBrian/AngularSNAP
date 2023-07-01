@@ -1,1 +1,61 @@
 /* You can add global styles to this file, and also import other style files */
+
+.contentDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 87%;
+    width: 100%;
+    position: fixed; 
+    left: 0%;
+    top: 7%;
+  
+}
+
+.navBar{
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    width: 100vw;
+    height: 7vh;
+    top: 0vh;
+    left: 0vw;
+    background-color: black;
+    color: #7851a9;
+}
+
+.Logo{
+    display: flex;
+    height: 100%;
+    width: 30%;
+}
+
+.externalLinks{
+    background-color:black;
+    color: #8F00FF;
+    font-family: 'Permanent Marker', cursive;
+    border-style: outset;
+    border-radius: 5vw;
+}
+
+.externalLinks:hover, .Links:hover{
+    background-color: white;
+    border-color: #8F00FF;
+    
+}
+
+.Links{
+    background-color:black;
+    color: #8F00FF;
+    font-family: 'Permanent Marker', cursive;
+    border-style: outset;
+    border-radius: 5vw;
+}
+
+#LogoText{
+    font-family: 'Permanent Marker', cursive;
+}
+
+#homeContent{
+    font-family: 'Permanent Marker', cursive;
+}
