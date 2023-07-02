@@ -12,7 +12,7 @@
   
 }
 
-.navBar{
+.DarkNavBar{
     display: flex;
     position: fixed;
     justify-content: space-between;
@@ -22,6 +22,21 @@
     left: 0vw;
     background-color: black;
     color: #7851a9;
+}
+
+.LightNavBar{
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    width: 100vw;
+    height: 7vh;
+    top: 0vh;
+    left: 0vw;
+    background-color: white;
+    color: black;
+    border-style: double;
+    border-radius: 0.5vh;
+    border-color: black;
 }
 
 .Logo{
@@ -54,11 +69,11 @@
     font-size: medium;
 }
 
-.LightLogoText{
+.DarkLogoText{
     font-family: 'Permanent Marker', cursive;
 }
 
-.DarkLogoText{
+.LightLogoText{
     color: black;
     font-family: 'Permanent Marker', cursive;
 }

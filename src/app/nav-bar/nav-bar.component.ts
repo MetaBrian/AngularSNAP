@@ -8,11 +8,15 @@ import { Component } from '@angular/core';
 export class NavBarComponent {
   modeSwitch() {
     const navBarText = document.getElementById('LogoText');
+    const navBar = document.getElementById('navBar')
   
-    if (navBarText.className === 'LightLogoText') {
-      navBarText.className = 'DarkLogoText';
-    } else {
+    if (navBarText.className === 'DarkLogoText') {
       navBarText.className = 'LightLogoText';
+      navBar.className='LightNavBar'
+
+    } else {
+      navBarText.className = 'DarkLogoText';
+      navBar.className='DarkNavBar'
     }
   }
 
