@@ -54,7 +54,12 @@
     font-size: medium;
 }
 
-#LogoText{
+.LightLogoText{
+    font-family: 'Permanent Marker', cursive;
+}
+
+.DarkLogoText{
+    color: black;
     font-family: 'Permanent Marker', cursive;
 }
 
