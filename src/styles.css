@@ -59,8 +59,8 @@
   font-size: medium;
 }
 
-.externalLinks:hover,
-.Links:hover {
+.darkExternalLinks:hover,
+.darkLinks:hover {
   background-color: white;
   color: black;
   border-color: black;
