@@ -1,61 +1,149 @@
-/* You can add global styles to this file, and also import other style files */
+.contentDivDark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 93vh;
+  width: 100vw;
+  position: fixed;
+  left: 0vw;
+  top: 7vh;
+  background-color: black;
+  border-radius: 0.5vh;
+  border-color: white;
+  border-style: ridge;
+}
 
-.contentDiv{
+.DarkNavBar {
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  width: 100vw;
+  height: 7vh;
+  top: 0%;
+  left: 0vw;
+  background-color: black;
+}
+
+.darkButton {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 7vh;
+  width: 28vw;
+  background-color: black;
+  border-style: hidden;
+}
+
+.darkButton:hover {
+  background-color: white;
+}
+
+.DarkLogoText {
+  display: flex;
+  font-family: "Permanent Marker", cursive;
+  color: #8f00ff;
+}
+
+.darkContent {
+  font-family: "Permanent Marker", cursive;
+  color: white;
+}
+
+.darkExternalLinks,
+.darkLinks {
+  background-color: transparent;
+  color: white;
+  font-family: "Permanent Marker", cursive;
+  border-style: outset;
+  border-radius: 5vw;
+  font-size: medium;
+}
+
+.externalLinks:hover,
+.Links:hover {
+  background-color: white;
+  color: black;
+  border-color: black;
+  font-size: larger;
+}
+
+/* Light Mode BELOW */
+
+.LightNavBar {
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  width: 100vw;
+  height: 7vh;
+  top: 0vh;
+  left: 0vw;
+  background-color: white;
+  border-style: double;
+  border-radius: 1vh;
+  border-color: black;
+}
+
+.LightLogoText {
+  background-color: transparent;
+  color: black;
+  font-family: "Permanent Marker", cursive;
+}
+
+.contentDivLight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 93vh;
+  width: 100vw;
+  position: fixed;
+  left: 0vw;
+  top: 7vh;
+  background-color: white;
+  border-radius: 0.5vh;
+  border-style: double;
+  border-color: black;
+}
+
+.lightContent {
+  font-family: "Permanent Marker", cursive;
+  color: black;
+}
+
+.lightButton {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    height: 87%;
-    width: 100%;
-    position: fixed; 
-    left: 0%;
-    top: 7%;
-  
-}
-
-.navBar{
-    display: flex;
-    position: fixed;
-    justify-content: space-between;
-    width: 100vw;
     height: 7vh;
-    top: 0vh;
-    left: 0vw;
-    background-color: black;
-    color: #7851a9;
-}
-
-.Logo{
-    display: flex;
-    height: 100%;
-    width: 30%;
-}
-
-.externalLinks{
-    background-color:black;
-    color: #8F00FF;
-    font-family: 'Permanent Marker', cursive;
-    border-style: outset;
-    border-radius: 5vw;
-}
-
-.externalLinks:hover, .Links:hover{
+    width: 28vw;
     background-color: white;
-    border-color: #8F00FF;
-    
-}
+    border-style: hidden;
+  }
+  
+  .light:hover {
+    background-color: black;
+  }
 
-.Links{
-    background-color:black;
-    color: #8F00FF;
-    font-family: 'Permanent Marker', cursive;
+  .lightExternalLinks,
+  .lightLinks {
+    background-color: transparent;
+    color: black;
+    font-family: "Permanent Marker", cursive;
     border-style: outset;
     border-radius: 5vw;
+    font-size: medium;
+  }
+/* 
+Non-L/D styling BELOW */
+
+.Logo {
+  display: flex;
+  height: 7vh;
+  width: 30vw;
 }
 
-#LogoText{
-    font-family: 'Permanent Marker', cursive;
-}
-
-#homeContent{
-    font-family: 'Permanent Marker', cursive;
+.navBarButtons {
+  display: flex;
+  justify-content: space-around;
+  height: 7vh;
+  width: 60vw;
 }
