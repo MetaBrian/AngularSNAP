@@ -1,0 +1,36 @@
+.darkDeckBuilder {
+    display: grid;
+    position: relative;
+    top: 5%;
+    height: 40vh;
+    width: 80vw;
+    gap: 1vh;
+    border-style: double;
+    border-radius: 2vh;
+    border-color: white;
+    justify-items: stretch;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .allCardsContent{
+    display: flex;
+    position: relative;
+    top: 35%;
+    height: 40vh;
+    width: 80vw;
+    border-style: double;
+    border-radius: 2vh;
+    border-color: white;
+    justify-content:space-around
+  }
+
+  #searchCards{
+    display: flex;
+    position: relative;
+    top: 50%;
+    left: 5%;
+    width: 70vw;
+    height: 4vh;
+    justify-content: center;
+  }

@@ -67,19 +67,7 @@
   font-size: larger;
 }
 
-.darkDeckBuilder {
-  display: grid;
-  position: relative;
-  top: 5%;
-  height: 40vh;
-  width: 80vw;
-  gap: 1vh;
-  border-style: double;
-  border-radius: 2vh;
-  border-color: white;
-  justify-items: stretch;
-  align-items: center;
-}
+
 
 /* Light Mode BELOW */
 

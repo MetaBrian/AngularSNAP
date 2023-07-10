@@ -1,26 +1,32 @@
 <!-- Allow for multiple decks to be c/r/u/d; display decks saved that function the same as this page-->
 
 <div class="darkDeckBuilder">
-  <button (click)="addCard('thanos')">
-    <img
-    height = 100vh
-    width = 100vw
-      src="../assets/ThanosCard.png"
-      alt="a playing card showing thanos with a cost 6 & power of 8"
-    />
-  </button>
+
+
 </div>
 
 <input
+id ='searchCards'
   type="text"
   style="font-family: 'Permanent Marker'"
   placeholder="Search..."
 />
 
-<div>
-  <h2 class="darkContent">
-    Card List
-    <br />
-    Coming Soon...
-  </h2>
+<div class="allCardsContent">
+  <button (click)="addCard('thanos')">
+    <img
+    height = 100vh
+    width = 100vw
+      src="./assets/ThanosCard.png"
+      alt="a playing card showing thanos with a cost 6 & power of 8"
+    />
+  </button>
+  <button (click)="addCard('death')">
+    <img
+    height = 100vh
+    width = 100vw
+      src="./assets/DEATH.png"
+      alt="a playing card showing DEATH with a cost of 8 & power of 12"
+    />
+  </button>
 </div>
