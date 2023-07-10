@@ -2,7 +2,7 @@
     display: grid;
     position: relative;
     top: 5%;
-    height: 40vh;
+    height: 35vh;
     width: 80vw;
     gap: 1vh;
     border-style: double;
@@ -17,7 +17,7 @@
     display: flex;
     position: relative;
     top: 35%;
-    height: 40vh;
+    height: 35vh;
     width: 80vw;
     border-style: double;
     border-radius: 2vh;
@@ -34,4 +34,19 @@
     height: 4vh;
     text-align: center;
     font-size: larger;
+  }
+
+  .allCardsButtons{
+    height: 20vh;
+    width: 15vw;
+    background-color: transparent;
+    border-style:groove;
+    border-radius: 1vh;
+    border-color: #8f00ff;
+  }
+
+  img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
   }

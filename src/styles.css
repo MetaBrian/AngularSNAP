@@ -30,7 +30,7 @@
   align-items: center;
   height: 7vh;
   width: 28vw;
-  background-color: black;
+  background-color: transparent;
   border-style: hidden;
 }
 
@@ -140,8 +140,13 @@ Non-L/D styling BELOW */
 
 .Logo {
   display: flex;
-  height: 7vh;
+  height: 100%;
   width: 30vw;
+}
+
+#LogoImage{
+  height: 100%;
+  width: 10vw;
 }
 
 .navBarButtons {
@@ -149,4 +154,10 @@ Non-L/D styling BELOW */
   justify-content: space-around;
   height: 7vh;
   width: 60vw;
+}
+
+img{
+  height:100%;
+  width: 100%;
+  object-fit: cover;
 }
