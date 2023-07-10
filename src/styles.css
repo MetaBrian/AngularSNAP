@@ -67,6 +67,20 @@
   font-size: larger;
 }
 
+.darkDeckBuilder {
+  display: grid;
+  position: relative;
+  top: 5%;
+  height: 40vh;
+  width: 80vw;
+  gap: 1vh;
+  border-style: double;
+  border-radius: 2vh;
+  border-color: white;
+  justify-items: stretch;
+  align-items: center;
+}
+
 /* Light Mode BELOW */
 
 .LightNavBar {
@@ -110,28 +124,29 @@
 }
 
 .lightButton {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    height: 7vh;
-    width: 28vw;
-    background-color: white;
-    border-style: hidden;
-  }
-  
-  .light:hover {
-    background-color: black;
-  }
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 7vh;
+  width: 28vw;
+  background-color: white;
+  border-style: hidden;
+}
 
-  .lightExternalLinks,
-  .lightLinks {
-    background-color: transparent;
-    color: black;
-    font-family: "Permanent Marker", cursive;
-    border-style: outset;
-    border-radius: 5vw;
-    font-size: medium;
-  }
+.light:hover {
+  background-color: black;
+}
+
+.lightExternalLinks,
+.lightLinks {
+  background-color: transparent;
+  color: black;
+  font-family: "Permanent Marker", cursive;
+  border-style: outset;
+  border-radius: 5vw;
+  font-size: medium;
+}
+
 /* 
 Non-L/D styling BELOW */
 
