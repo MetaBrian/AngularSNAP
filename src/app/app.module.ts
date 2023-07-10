@@ -2,10 +2,7 @@
 
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-<<<<<<< HEAD
 import { HttpClientModule } from '@angular/common/http';
-=======
->>>>>>> 4aadcaae2804357d0a632703b7b0583d5be7471b
 
 import { AppComponent } from './app.component';
 
