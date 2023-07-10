@@ -32,5 +32,6 @@
     left: 5%;
     width: 70vw;
     height: 4vh;
-    justify-content: center;
+    text-align: center;
+    font-size: larger;
   }
