@@ -1,0 +1,26 @@
+<div id="navBar" class="DarkNavBar">
+  <div class="Logo">
+    <img
+      id="LogoImage"
+      height="100%"
+      src="../assets/Thanos_Snap.png"
+      alt="Thanos Snapping Emote"
+    />
+    <button id="LogoButton" class="darkButton" routerLink="/">
+      <h1 class="DarkLogoText" id="LogoText">AngularSNAP!</h1>
+    </button>
+  </div>
+
+  <div class="navBarButtons">
+    <button class="darkLinks" routerLink="/deckbuilder">Deck Builder</button>
+    <button class="darkLinks" routerLink="/cardrater">Card Rater</button>
+    <button (click)="newTab()" class="darkExternalLinks">GitHub</button>
+    <button (click)="modeSwitch()" class="darkExternalLinks">
+      <img
+        height="100%"
+        src="../assets/lightdark.png"
+        alt="Sun & Moon symbol"
+      />
+    </button>
+  </div>
+</div>

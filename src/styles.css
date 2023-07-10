@@ -1,0 +1,164 @@
+.contentDivDark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 93vh;
+  width: 100vw;
+  position: fixed;
+  left: 0vw;
+  top: 7vh;
+  background-color: black;
+  border-radius: 0.5vh;
+  border-color: white;
+  border-style: ridge;
+}
+
+.DarkNavBar {
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  width: 100vw;
+  height: 7vh;
+  top: 0%;
+  left: 0vw;
+  background-color: black;
+}
+
+.darkButton {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 7vh;
+  width: 28vw;
+  background-color: black;
+  border-style: hidden;
+}
+
+.darkButton:hover {
+  background-color: white;
+}
+
+.DarkLogoText {
+  display: flex;
+  font-family: "Permanent Marker", cursive;
+  color: #8f00ff;
+}
+
+.darkContent {
+  font-family: "Permanent Marker", cursive;
+  color: white;
+}
+
+.darkExternalLinks,
+.darkLinks {
+  background-color: transparent;
+  color: white;
+  font-family: "Permanent Marker", cursive;
+  border-style: outset;
+  border-radius: 5vw;
+  font-size: medium;
+}
+
+.darkExternalLinks:hover,
+.darkLinks:hover {
+  background-color: white;
+  color: black;
+  border-color: black;
+  font-size: larger;
+}
+
+.darkDeckBuilder {
+  display: grid;
+  position: relative;
+  top: 5%;
+  height: 40vh;
+  width: 80vw;
+  gap: 1vh;
+  border-style: double;
+  border-radius: 2vh;
+  border-color: white;
+  justify-items: stretch;
+  align-items: center;
+}
+
+/* Light Mode BELOW */
+
+.LightNavBar {
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  width: 100vw;
+  height: 7vh;
+  top: 0vh;
+  left: 0vw;
+  background-color: white;
+  border-style: double;
+  border-radius: 1vh;
+  border-color: black;
+}
+
+.LightLogoText {
+  background-color: transparent;
+  color: black;
+  font-family: "Permanent Marker", cursive;
+}
+
+.contentDivLight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 93vh;
+  width: 100vw;
+  position: fixed;
+  left: 0vw;
+  top: 7vh;
+  background-color: white;
+  border-radius: 0.5vh;
+  border-style: double;
+  border-color: black;
+}
+
+.lightContent {
+  font-family: "Permanent Marker", cursive;
+  color: black;
+}
+
+.lightButton {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 7vh;
+  width: 28vw;
+  background-color: white;
+  border-style: hidden;
+}
+
+.light:hover {
+  background-color: black;
+}
+
+.lightExternalLinks,
+.lightLinks {
+  background-color: transparent;
+  color: black;
+  font-family: "Permanent Marker", cursive;
+  border-style: outset;
+  border-radius: 5vw;
+  font-size: medium;
+}
+
+/* 
+Non-L/D styling BELOW */
+
+.Logo {
+  display: flex;
+  height: 7vh;
+  width: 30vw;
+}
+
+.navBarButtons {
+  display: flex;
+  justify-content: space-around;
+  height: 7vh;
+  width: 60vw;
+}
