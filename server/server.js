@@ -2,10 +2,10 @@ const express = require("express");
 const dotenv = require("dotenv/config");
 const mongoose = require("mongoose");
 const app = express();
-// const Card = require("./cardModel");
-// const cors = require('cors')
+const Card = require("./cardModel");
+const cors = require('cors')
 
-// app.use(cors());
+app.use(cors());
 app.use(express.json());
 
 const URI = process.env.URI;
@@ -22,6 +22,7 @@ mongoose
 app.post("/addCard", async (req, res, next) => {
   const { cardName } = await req.body;
   try {
+    await Card.create({cardName: cardName})
     await console.log(cardName);
   } catch {
     return next(err);

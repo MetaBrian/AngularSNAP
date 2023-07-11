@@ -12,18 +12,14 @@ export class DeckBuilderComponent {
 
   constructor(private http: HttpClient) {}
 
-  headers = new HttpHeaders({
-    'Content-type': 'application/json',
-    Authorization: '',
-  });
-  options = { headers: this.headers };
-
   addCard(cardName: string) {
-    return this.http.post('http://localhost:7120/addCard', cardName).subscribe(
-      (data) => {
-        console.log(data, 'attempt made');
-      },
-      (err) => console.log(err)
-    );
+    this.http
+      .post('http://localhost:7120/addCard', { cardName: cardName })
+      .subscribe(
+        (data) => {
+          console.log(data, 'attempt made');
+        },
+        (err) => console.log(err)
+      );
   }
 }
