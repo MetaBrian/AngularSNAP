@@ -24,6 +24,7 @@ app.post("/addCard", async (req, res, next) => {
   try {
     await Card.create({cardName: cardName})
     await console.log(cardName);
+    await res.send(JSON.stringify('attempt successful'))
   } catch {
     return next(err);
   }
