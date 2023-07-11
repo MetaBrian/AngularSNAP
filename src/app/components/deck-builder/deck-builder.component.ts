@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 // import { CardService } from 'src/app/services/cards.service';
-import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-deck-builder',
