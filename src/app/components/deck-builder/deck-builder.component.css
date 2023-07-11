@@ -22,7 +22,8 @@
     border-style: double;
     border-radius: 2vh;
     border-color: white;
-    justify-content:space-around
+    justify-content:space-around;
+    align-items: center;
   }
 
   #searchCards{
