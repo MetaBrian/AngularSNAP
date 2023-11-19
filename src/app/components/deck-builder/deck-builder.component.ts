@@ -22,4 +22,9 @@ export class DeckBuilderComponent {
         (err) => console.log(err)
       );
   }
+
+  collectCards(){
+    this.http.get('https://marvelsnap.io/database/characters/').subscribe((data)=>{console.log(data)}, (err)=>console.log(err))
+  }
+
 }

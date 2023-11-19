@@ -3,7 +3,7 @@ const dotenv = require("dotenv/config");
 const mongoose = require("mongoose");
 const app = express();
 const Card = require("./cardModel");
-const cors = require('cors')
+const cors = require("cors");
 
 app.use(cors());
 app.use(express.json());
@@ -19,12 +19,23 @@ mongoose
     console.log(err);
   });
 
+app.get(
+  "https://marvelsnap.io/database/characters/",
+  async (req, res, next) => {
+    try {
+      await res.send(JSON.stringify(data));
+    } catch {
+      return next(err);
+    }
+  }
+);
+
 app.post("/addCard", async (req, res, next) => {
   const { cardName } = await req.body;
   try {
-    await Card.create({cardName: cardName})
+    await Card.create({ cardName: cardName });
     await console.log(cardName);
-    await res.send(JSON.stringify('attempt successful'))
+    await res.send(JSON.stringify("attempt successful"));
   } catch {
     return next(err);
   }
